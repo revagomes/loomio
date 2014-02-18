@@ -95,7 +95,7 @@ class DiscussionsController < GroupBaseController
       @reader = @discussion.as_read_by(current_user)
       @activity = @discussion.activity.page(requested_or_first_unread_page).per(Discussion::PER_PAGE)
     else
-      @activity = @discussion.activity.page(params[:page]).per(Discussion::PER_PAGE)
+      @activity = @discussion.activity.page(current_page).per(Discussion::PER_PAGE)
     end
   end
 

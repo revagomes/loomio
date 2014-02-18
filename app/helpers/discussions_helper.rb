@@ -92,8 +92,10 @@ module DiscussionsHelper
   def requested_or_first_unread_page
     if params[:page]
       params[:page].to_i
-    else
+    elsif current_user
       @reader.first_unread_page
+    else
+      1
     end
   end
 
@@ -126,7 +128,7 @@ module DiscussionsHelper
     description = t(:'simple_form.labels.discussion.privacy_private_description', group: group)
     options << ["<span class='discussion-privacy-setting-header'><i class='icon-lock'></i>#{header}<br /><p>#{description}</p>".html_safe, true ]
   end
-  
+
   def current_language
     Translation.language I18n.locale.to_s
   end

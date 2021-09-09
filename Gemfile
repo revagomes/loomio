@@ -28,7 +28,7 @@ gem 'gravtastic', '~> 3.2.6'
 gem 'paperclip', '~> 3.4.0'
 gem 'kaminari', '~> 0.14.0'
 gem 'activeadmin', github: 'gregbell/active_admin', ref: '40c18cf23f2f2aab6bcc9bcdbd4ccae87c8632fa'
-gem 'nokogiri', '~> 1.6.0'
+gem 'nokogiri', '~> 1.8.2'
 gem 'twitter-text', '~> 1.6.3'
 gem 'jquery-atwho-rails', '~> 0.4.1'
 gem 'redcarpet', '~> 3.0.0'
@@ -52,7 +52,7 @@ gem 'rabl', '~> 0.8.6'
 gem 'sequenced', '~> 1.4.0'
 gem 'closure_tree', '~> 4.3.0'
 gem 'ruby-progressbar', '1.4.1'
-gem 'bing_translator', '~> 4.0.0'
+gem 'bing_translator', '~> 5.1.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -92,7 +92,7 @@ group :development do
   gem 'awesome_print', '~> 1.0.2'
   gem 'quiet_assets', '~> 1.0.2'
   gem 'meta_request', '~> 0.2.8'
-  gem 'better_errors', '~> 1.0.1'
+  gem 'better_errors', '~> 2.8.0'
   gem 'binding_of_caller', '~> 0.7.2'
 end
 

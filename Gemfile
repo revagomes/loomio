@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 ruby '2.0.0'
-gem 'rails', '~> 3.2.14'
+gem 'rails', '~> 5.2.8', '>= 5.2.8.1'
 gem 'haml-rails', '~> 0.4'
 gem 'devise', '~> 3.1.0'
 gem 'omniauth', '~> 1.1.4'

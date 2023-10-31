@@ -23,7 +23,7 @@ gem 'aasm', '~> 3.0.3'
 gem 'cancan', '~> 1.6.10'
 gem 'draper', '~> 0.11.1' # can this be removed?
 gem 'browser', '~> 0.1.3'
-gem 'rmagick', '~> 2.13.1'
+gem 'rmagick', '~> 5.3.0'
 gem 'gravtastic', '~> 3.2.6'
 gem 'paperclip', '~> 3.4.0'
 gem 'kaminari', '~> 0.14.0'

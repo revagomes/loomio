@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 ruby '2.0.0'
-gem 'rails', '~> 3.2.14'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.9'
 gem 'haml-rails', '~> 0.4'
 gem 'devise', '~> 3.1.0'
 gem 'omniauth', '~> 1.1.4'
@@ -26,13 +26,13 @@ gem 'browser', '~> 0.1.3'
 gem 'rmagick', '~> 2.13.1'
 gem 'gravtastic', '~> 3.2.6'
 gem 'paperclip', '~> 3.4.0'
-gem 'kaminari', '~> 0.14.0'
+gem 'kaminari', '~> 1.0.0'
 gem 'activeadmin', github: 'gregbell/active_admin', ref: '40c18cf23f2f2aab6bcc9bcdbd4ccae87c8632fa'
 gem 'nokogiri', '~> 1.6.0'
 gem 'twitter-text', '~> 1.6.3'
 gem 'jquery-atwho-rails', '~> 0.4.1'
 gem 'redcarpet', '~> 3.0.0'
-gem 'paper_trail', '~> 2.7.2'
+gem 'paper_trail', '~> 3.0.0'
 gem 'unicorn', '~> 4.6.3'
 gem 'rack-canonical-host', '~> 0.0.8'
 gem 'delayed_job_active_record', '~> 4.0.0'
@@ -45,7 +45,7 @@ gem 'pg_search', '~> 0.7.0'
 gem 'strong_parameters', '~> 0.2.1'
 gem 'airbrake', '~> 3.1.14'
 gem 'fog', '~> 1.19.0'
-gem 'roadie', '~> 2.4.3'
+gem 'roadie', '~> 3.0.0'
 gem 'valid_email', '~> 0.0.4'
 gem 'font-awesome-sass-rails'
 gem 'rabl', '~> 0.8.6'
@@ -58,7 +58,7 @@ gem 'bing_translator', '~> 4.0.0'
 # in production environments by default.
 group :assets do
   gem 'coffee-rails', '~> 3.2.2'
-  gem 'sass-rails', '~> 3.2.6'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'bootstrap-sass', '~> 2.3.2.2'
   gem 'uglifier', '~> 2.2.1'
   gem 'modernizr-rails', '~> 2.6.2'
@@ -97,7 +97,7 @@ group :development do
 end
 
 group :test do
-  gem 'cucumber-rails', '~> 1.4.0', :require => false
+  gem 'cucumber-rails', '~> 1.4.3', :require => false
   gem 'email_spec', '~> 1.2.1'
   gem 'poltergeist', '~> 1.3.0'
   gem 'webmock', '~> 1.9.0'

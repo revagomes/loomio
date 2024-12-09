@@ -28,7 +28,7 @@ gem 'gravtastic', '~> 3.2.6'
 gem 'paperclip', '~> 3.4.0'
 gem 'kaminari', '~> 0.14.0'
 gem 'activeadmin', github: 'gregbell/active_admin', ref: '40c18cf23f2f2aab6bcc9bcdbd4ccae87c8632fa'
-gem 'nokogiri', '~> 1.6.0'
+gem 'nokogiri', '~> 1.15.7'
 gem 'twitter-text', '~> 1.6.3'
 gem 'jquery-atwho-rails', '~> 0.4.1'
 gem 'redcarpet', '~> 3.0.0'
@@ -44,7 +44,7 @@ gem 'timecop', '~> 0.6.3'
 gem 'pg_search', '~> 0.7.0'
 gem 'strong_parameters', '~> 0.2.1'
 gem 'airbrake', '~> 3.1.14'
-gem 'fog', '~> 1.19.0'
+gem 'fog', '~> 1.37.0'
 gem 'roadie', '~> 2.4.3'
 gem 'valid_email', '~> 0.0.4'
 gem 'font-awesome-sass-rails'
@@ -52,7 +52,7 @@ gem 'rabl', '~> 0.8.6'
 gem 'sequenced', '~> 1.4.0'
 gem 'closure_tree', '~> 4.3.0'
 gem 'ruby-progressbar', '1.4.1'
-gem 'bing_translator', '~> 4.0.0'
+gem 'bing_translator', '~> 6.0.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -97,7 +97,7 @@ group :development do
 end
 
 group :test do
-  gem 'cucumber-rails', '~> 1.4.0', :require => false
+  gem 'cucumber-rails', '~> 3.0.0', :require => false
   gem 'email_spec', '~> 1.2.1'
   gem 'poltergeist', '~> 1.3.0'
   gem 'webmock', '~> 1.9.0'

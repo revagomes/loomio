@@ -70,7 +70,7 @@ group :development, :test do
   gem 'pry-rails', '~> 0.3.2' # Use this instead of debugger
   gem 'factory_girl_rails', '~> 4.2.1'
   gem 'faker', '~> 1.2.0'
-  gem 'rspec-rails', '~> 2.14.0'
+  gem 'rspec-rails', '~> 8.0.0'
   gem 'shoulda-matchers', '~> 2.3.0'
   gem 'capybara', '~> 2.1.0'
   gem 'database_cleaner', '~> 1.1.1'

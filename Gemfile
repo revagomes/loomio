@@ -50,7 +50,7 @@ gem 'valid_email', '~> 0.0.4'
 gem 'font-awesome-sass-rails'
 gem 'rabl', '~> 0.8.6'
 gem 'sequenced', '~> 1.4.0'
-gem 'closure_tree', '~> 4.3.0'
+gem 'closure_tree', '~> 8.0.0'
 gem 'ruby-progressbar', '1.4.1'
 gem 'bing_translator', '~> 4.0.0'
 
